@@ -32,8 +32,8 @@ The debate in session currently is - <a class="page-link" href="{{ site.baseurl 
 
 {% for collection in site.collections %}
 <ul>
-  <p> <img align="center" src="{{ collection[1].thumbnail }}"> </img> 
-  <li> {{ collection[1].label }}:<a href="{{ site.baseurl}}/{{ collection[1].label}}/briefing/">  Briefing </a></li></p>
+  <p> <img align="center" src="{{ collection.thumbnail }}"> </img> 
+  <li> {{ collection.label }}:<a href="{{ site.baseurl}}/{{ collection.label}}/briefing/">  Briefing </a></li></p>
 </ul>
 {% endfor %} 
 
